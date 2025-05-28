@@ -1,0 +1,14 @@
+python-dotenv
+fastapi[all]
+uvicorn
+aiohttp
+sentry-sdk>=1.0.0
+
+# Pipecat AI core + الـ Flows
+pipecat-ai[daily,azure,openai,elevenlabs,silero]
+pipecat-ai-flows
+
+# للتعامل مع CSV والـ fuzzy matching
+pandas
+fuzzywuzzy
+python-levenshtein
